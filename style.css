@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #7C93C3;
+    color: #1E2A5E;
+    
+}
+
+.cabecalho__menu{
+    background-color: #55679C;
+    margin-left: 10rem;
+    padding: 3rem 15rem 3rem 0;
+    border-radius: 0 0 30% 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.quadrado{
+    width: 40px;
+    height: 40px;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: -5rem;
+    border-radius: 50%;
+}
+
+
+.menu__lista{
+    display: flex;
+    justify-content: right;
+    gap: 6rem;
+    padding: 0 10%;
+}
+
+.lista__item{
+    list-style-type: none;
+}
+
+
+.lista__link{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #7C93C3;
+    transition: .5s;
+}
+
+.lista__link:hover{
+    color: #1E2A5E;
+}
+
+.apresentacao{
+    height: 100vh;
+}
+
+.apresentacao__conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.apresentacao__conteudo__titulo{
+    padding: 4rem;
+    margin: 4rem 0;
+    font-size: 6rem;
+}
+
+.formulario{
+    background-color: #55679C;
+    width: 40%;
+    padding: 4rem 4rem 4rem 12rem;
+    border-radius: 2rem;
+}
+
+label{ 
+    font-size: 3rem;
+    
+}
+
+input{
+    border:2px solid #1E2A5E;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 245px;
+}
+
+textarea{
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+button{
+    color: #1E2A5E;
+    font-size: 1.5rem;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.apresentacao__conteudo__texto{
+    background-color: #55679C;
+    width: 50%;
+    padding: 4rem 4rem 4rem 6rem;
+    border-radius: 2rem;
+    
+}
+
+.subtitulo{
+    font-size: 4rem;
+}
+
+.subtitulo__especial{
+    font-size: 8rem;
+}
+
+.texto{
+    font-size: 2rem;
+}
+
+.conteudo__card{
+    background-color:#55679C ;
+    border-radius: 2rem;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link__card{
+   padding: 3rem;
+   text-decoration: none;
+}
+
+.img__card{
+    width: 700px;
+    height: 400px;
+}
+
+.titulo__card{
+    color: #1E2A5E;
+    font-size: 3rem;
+}
+
+.texto__card{
+    color: #1E2A5E;
+    font-size: 2rem;
+}
+
+.rodape{
+    background-color:#55679C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.rodape__texto{
+    font-size: 1.5rem;
+}
