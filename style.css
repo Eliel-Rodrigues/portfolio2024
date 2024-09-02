@@ -14,7 +14,7 @@ body{
 .cabecalho__menu{
     background-color: #55679C;
     margin-left: 10rem;
-    padding: 3rem 15rem 3rem 0;
+    padding: 1.5rem 10rem 1.5rem 0;
     border-radius: 0 0 30% 0;
     display: flex;
     justify-content: space-between;
@@ -23,13 +23,14 @@ body{
 }
 
 .logo{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     position: absolute;
     top: 0;
     left: -5rem;
     border-radius: 50%;
 }
+
 
 .menu__lista{
     display: flex;
@@ -51,11 +52,7 @@ body{
 }
 
 .lista__link:hover{
-    color: #1E2A5E;
-}
-
-.apresentacao{
-    height: 100vh;
+    color: #303030;
 }
 
 .apresentacao__conteudo{
@@ -66,40 +63,8 @@ body{
 }
 
 .apresentacao__conteudo__titulo{
-    padding: 4rem;
-    margin: 4rem 0;
+    padding: 3rem;
     font-size: 3rem;
-}
-
-.formulario{
-    background-color: #55679C;
-    width: 40%;
-    padding: 4rem 4rem 4rem 12rem;
-    border-radius: 2rem;
-}
-
-label{ 
-    font-size: 3rem;
-    
-}
-
-input{
-    border:2px solid #1E2A5E;
-    padding: 1rem;
-    border-radius: 10px;
-    width: 245px;
-}
-
-textarea{
-    border-radius: 10px;
-    padding: 1rem;
-}
-
-button{
-    color: #1E2A5E;
-    font-size: 1.5rem;
-    padding: 8px;
-    border-radius: 10px;
 }
 
 .apresentacao__conteudo__texto{
@@ -107,19 +72,19 @@ button{
     width: 50%;
     padding: 4rem 4rem 4rem 6rem;
     border-radius: 2rem;
-    
+    margin-bottom: 6rem;
 }
 
 .subtitulo{
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 .subtitulo__especial{
-    font-size: 8rem;
+    font-size: 3rem;
 }
 
 .texto{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .conteudo__card{
@@ -129,6 +94,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 6rem;
 }
 
 .link__card{
@@ -137,18 +103,50 @@ button{
 }
 
 .img__card{
-    width: 700px;
-    height: 400px;
+    width: 390px;
+    height: 200px;
 }
 
 .titulo__card{
     color: #1E2A5E;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .texto__card{
     color: #1E2A5E;
+    font-size: 1.5rem;
+}
+
+.formulario{
+    background-color: #55679C;
+    width: 40%;
+    padding: 3rem 2rem 3rem 4rem;
+    border-radius: 2rem;
+    margin-bottom: 6rem;
+}
+
+label{ 
     font-size: 2rem;
+}
+
+input{
+    border:2px solid #1E2A5E;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 22rem;
+}
+
+textarea{
+    border-radius: 10px;
+    padding: 1rem;
+    width: 22rem;
+}
+
+button{
+    color: #1E2A5E;
+    font-size: 1.5rem;
+    padding: 8px;
+    border-radius: 10px;
 }
 
 .rodape{
@@ -156,9 +154,254 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 3rem;
+    padding: 1.5rem;
+    bottom: o;
 }
 
 .rodape__texto{
-    font-size: 1.5rem;
+    font-size: 1rem;
+}
+
+@media screen and (max-width:430px) {
+    .cabecalho__menu{
+        display: flex;
+        padding: .5rem;
+        margin-left: 4rem;
+        margin-top: 1rem;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .logo{
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        left: -3.5rem;
+        top: -.7rem
+    }
+
+    .menu__lista{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .5rem
+    }
+
+    .lista__link{
+        font-size: 1rem;
+        
+    }
+
+    .apresentacao__conteudo__titulo{
+        font-size: 2rem;
+        padding: 5rem;
+    }
+
+    .apresentacao__conteudo__texto{
+        font-size: 1rem;
+        width: 70%;
+        padding: 1rem 1rem 1rem 2rem;
+        margin-bottom: 10rem;
+    }
+
+    .subtitulo{
+        font-size: 1.2rem;
+    }
+    
+    .subtitulo__especial{
+        font-size: 2rem;
+    }
+
+    .texto{
+        font-size: 1rem;
+    }
+
+    .rodape__texto{
+        font-size: .7rem;
+    }
+
+    .conteudo__card{
+        background-color:#55679C ;
+        border-radius: 2rem;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 7rem;
+    }
+    
+    .link__card{
+       padding: 2rem 1rem;
+       text-decoration: none;
+    }
+    
+    .img__card{
+        width: 130px;
+        height: 80px;
+    }
+    
+    .titulo__card{
+        color: #1E2A5E;
+        font-size: 1.5rem;
+    }
+    
+    .texto__card{
+        color: #1E2A5E;
+        font-size: 1rem;
+    }
+
+    .formulario{
+        background-color: #55679C;
+        width: 80%;
+        padding: 2rem 1rem ;
+        border-radius: 2rem;
+        margin-bottom: 6rem;
+    }
+    
+    label{ 
+        font-size: 1rem;
+    }
+    
+    input{
+        border:2px solid #1E2A5E;
+        padding: 1rem;
+        border-radius: 10px;
+        width: 200px;
+    }
+    
+    textarea{
+        border-radius: 10px;
+        padding: 1rem;
+        width: 200px;
+    }
+    
+    button{
+        color: #1E2A5E;
+        font-size: 1rem;
+        padding: 8px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (min-width: 431px) and (max-width: 768px) {
+    .cabecalho__menu{
+        display: flex;
+        padding: .5rem;
+        margin-left: 4rem;
+        margin-top: 1rem;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .logo{
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        left: -3.5rem;
+        top: -.7rem
+    }
+
+    .menu__lista{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem
+    }
+
+    .lista__link{
+        font-size: 1.5rem;
+        
+    }
+
+    .apresentacao__conteudo__titulo{
+        font-size: 2rem;
+        padding: 5rem;
+    }
+
+    .apresentacao__conteudo__texto{
+        font-size: 1rem;
+        width: 70%;
+        padding: 2rem 2rem 2rem 3rem;
+        margin-bottom: 10rem;
+    }
+
+    .subtitulo{
+        font-size: 1.5rem;
+    }
+    
+    .subtitulo__especial{
+        font-size: 2rem;
+    }
+
+    .texto{
+        font-size: 1.3rem;
+    }
+
+    .conteudo__card{
+        background-color:#55679C ;
+        border-radius: 2rem;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 7rem;
+    }
+    
+    .link__card{
+       padding: 2rem 1rem;
+       text-decoration: none;
+    }
+    
+    .img__card{
+        width: 210px;
+        height: 100px;
+    }
+    
+    .titulo__card{
+        color: #1E2A5E;
+        font-size: 1.5rem;
+    }
+    
+    .texto__card{
+        color: #1E2A5E;
+        font-size: 1.3rem;
+    }
+
+    .formulario{
+        background-color: #55679C;
+        width: 80%;
+        padding: 2rem 1rem ;
+        border-radius: 2rem;
+        margin-bottom: 6rem;
+    }
+    
+    label{ 
+        font-size: 1.5rem;
+    }
+    
+    input{
+        border:2px solid #1E2A5E;
+        padding: 1rem;
+        border-radius: 10px;
+        width: 25rem;
+    }
+    
+    textarea{
+        border-radius: 10px;
+        padding: 1rem;
+        width: 25rem;
+    }
+    
+    button{
+        color: #1E2A5E;
+        font-size: 1rem;
+        padding: 8px;
+        border-radius: 10px;
+    }
+
+    .rodape__texto{
+        font-size: 1rem;
+    }
 }
